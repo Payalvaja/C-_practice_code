@@ -3,33 +3,30 @@
 
 using namespace std;
 int main(){
-char op;
-int num1,num2,result;
+char op,a,b;
 
 cout<<"enter an op(+,-,*,/):";
 cin>>op;
-cout<<"enter two value";
-cin>>num1>>num2;
+
+cout<<"enter two values;";
+cin>>a>>b;
 
 switch(op){
 case '+':
- result = num1+num2;
-cout<<"result:"<<num1<<"+"<<num2<<"="<<result<<endl;
-break;
+  cout<<a<<"+"<<b<<"="<<a+b<<endl;
+  break;
 case '-':
-result = num1-num2;
-cout<<"result:"<<num1<<"-"<<num2<<"="<<result<<endl;
-break;
+  cout<<a<<"-"<<b<<"="<<a-b<<endl;
+  break;
 case '*':
-result = num1*num2;
-cout<<"result:"<<num1<<"*"<<num2<<"="<<result<<endl;
-break;
+  cout<<a<<"*"<<b<<"="<<a*b<<endl;
+  break;
 case '/':
-result = num1/num2;
-cout<<"result:"<<num1<<"/"<<num2<<"="<<result<<endl;
-break;
+  cout<<a<<"/"<<b<<"="<<a/b<<endl;
+  break;
 default:
-cout<<"enter valid numbers";
+  cout<<"invalid value"<<endl;
+  break;
 }
 return 0;
 }
