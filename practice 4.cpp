@@ -4,9 +4,6 @@ using namespace std;
 
 int main() 
 {
-    cout << "\n\n Check the upper and lower limits of integer :\n";
-	cout << "--------------------------------------------------\n"; 
-
 	
 	cout << " The maximum limit of int data type :" << INT_MAX << endl;
 	cout << " The minimum limit of int data type :" << INT_MIN << endl;
