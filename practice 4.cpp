@@ -1,13 +1,13 @@
  #include <iostream> 
 #include <climits>  
-using namespace std; // Using the standard namespace
+using namespace std; 
 
 int main() 
 {
-    cout << "\n\n Check the upper and lower limits of integer :\n"; // Outputting a message for checking integer limits
-	cout << "--------------------------------------------------\n"; // Outputting a separator line
+    cout << "\n\n Check the upper and lower limits of integer :\n";
+	cout << "--------------------------------------------------\n"; 
 
-	// Outputting the maximum and minimum limits of various data types
+	
 	cout << " The maximum limit of int data type :" << INT_MAX << endl;
 	cout << " The minimum limit of int data type :" << INT_MIN << endl;
 	cout << " The maximum limit of unsigned int data type :" << UINT_MAX << endl;
@@ -24,7 +24,7 @@ int main()
     cout << " The maximum limit of short data type :                " << SHRT_MAX << endl;
     cout << " The maximum limit of unsigned short data type :       " << USHRT_MAX << endl;
 
-    cout << endl; // Outputting a blank line for better readability
+    cout << endl; 
 
-    return 0; // Returning 0 to indicate successful program execution
-} // End of the main function
+    return 0; 
+} 
