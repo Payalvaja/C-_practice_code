@@ -19,7 +19,7 @@ case '-':
   cout<<"subtract"<<a-b<<endl;
   break;
 case '*':
-  cout<<"multiplication"<<a*b<<endl;
+  cout<<"multiply"<<a*b<<endl;
   break;
 case '/':
   cout<<"division"<<a/b<<endl;
