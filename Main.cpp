@@ -13,16 +13,16 @@ cin>>a>>b;
 
 switch(op){
 case '+':
-  cout<<a<<"+"<<b<<"="<<a+b<<endl;
+  cout<<"add"<<a+b<<endl;
   break;
 case '-':
-  cout<<a<<"-"<<b<<"="<<a-b<<endl;
+  cout<<"subtract"<<a-b<<endl;
   break;
 case '*':
-  cout<<a<<"*"<<b<<"="<<a*b<<endl;
+  cout<<"multiplication"<<a*b<<endl;
   break;
 case '/':
-  cout<<a<<"/"<<b<<"="<<a/b<<endl;
+  cout<<"division"<<a/b<<endl;
   break;
 default:
   cout<<"invalid value"<<endl;
